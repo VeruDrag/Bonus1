@@ -2,18 +2,79 @@
 html { box-sizing: border-box; }
 *, ::after, ::before { box-sizing: inherit; }
 
-/*
-	BARVY
-	czechitas  #b92e81
-	pozadi     #bdc3c7
-	tmava      #31363b
-	delitka    #3f464d
-	portfolio  #e74c3c
-	facebook   #3b5998
-	twitter    #1da1f2
-*/
-
-
 body {
 	background-color: #bdc3c7;
 }
+.profil {
+	width: 250px;
+	background-color: #31363b;
+	color: white;
+	box-shadow: 0px 2px 6px rgb(77, 75, 75);
+}
+.hlavicka {
+	position: relative;
+}
+.foto {
+	width: 100%;
+}
+.logo {
+	position: absolute;
+	top: 137px;
+	right: 22px;
+	border-radius: 50%;
+	background-color: #b92e81;
+	box-shadow: 2px 2px 8px black;
+}
+.obsah {
+	padding: 0 20px;
+}
+.jmeno {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 25px;
+}
+.obsah p {
+	font-family: 'Source Sans Pro', sans-serif;
+}
+.odkazy {
+	padding: 0;
+	margin-bottom: 0;
+}
+.odkazy li {
+	display: inline-block;
+	text-transform: uppercase;
+	text-align: center;
+}
+.portfolio {
+	width: 100%;
+	border-bottom: 1px solid #3f464d;
+	border-top: 1px solid #3f464d;
+	margin-top: 20px;
+}
+.portfolio:hover {
+	background-color: #e74c3c;
+}
+.fb {
+	width: 50%;
+	border-right: 1px solid #3f464d;
+}
+.fb:hover {
+	background-color: #3b5998;
+}
+.tw {
+	width: 50%;
+}
+.tw:hover {
+	background-color: #1da1f2;
+}
+.portfolio a,
+.fb a,
+.tw a {
+	font-family: 'Montserrat', sans-serif;
+	text-decoration: none;
+	color: #bdc3c7;
+	display: block;
+	padding: 10px;
+	font-weight: bold;
+}
+
+
