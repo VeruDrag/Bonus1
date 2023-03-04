@@ -36,10 +36,12 @@ body {
 	font-family: 'Source Sans Pro', sans-serif;
 }
 .odkazy {
+	font-size: 0; /* Tohle způsobí, že se odstraní neviditelná mezera */
 	padding: 0;
 	margin-bottom: 0;
 }
 .odkazy li {
+	font-size: 1rem;
 	display: inline-block;
 	text-transform: uppercase;
 	text-align: center;
